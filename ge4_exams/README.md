@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 # Prüfungen
 
@@ -10,12 +10,12 @@ Beide Prüfungen finden als **Workshop im Selbststudium** statt (ausserhalb der 
 
 ## Teilprüfung – Gruppenworkshop
 
-| **Vorgabe**       | **Beschreibung**                                                      |
-| :---------------- | :-------------------------------------------------------------------- |
-| **Zeitpunkt**     | nach Tag 4 oder – bei Bedarf – nach Tag 5                             |
-| **Sozialform**    | Gruppenarbeit                                                         |
-| **Voraussetzung** | S1 Word und S2 PowerPoint abgeschlossen und an Tag 4 kontrolliert     |
-| **Stoff**         | Excel, Word, PowerPoint, Cloud-Grundlagen, kontrollierter KI-Einsatz  |
+| **Vorgabe**       | **Beschreibung**                                                     |
+| :---------------- | :------------------------------------------------------------------- |
+| **Zeitpunkt**     | nach Tag 4 oder – bei Bedarf – nach Tag 5                            |
+| **Sozialform**    | Gruppenarbeit                                                        |
+| **Voraussetzung** | S1 Word und S2 PowerPoint abgeschlossen und an Tag 4 kontrolliert    |
+| **Stoff**         | Excel, Word, PowerPoint, Cloud-Grundlagen, kontrollierter KI-Einsatz |
 
 **Auftrag:**
 
@@ -31,11 +31,11 @@ Beide Prüfungen finden als **Workshop im Selbststudium** statt (ausserhalb der 
 
 ## Abschlussprüfung – Einzelarbeit
 
-| **Vorgabe**       | **Beschreibung**                                         |
-| :---------------- | :------------------------------------------------------- |
-| **Zeitpunkt**     | empfohlen nach Tag 7, alternativ nach Tag 8              |
-| **Sozialform**    | Einzelarbeit (eigener Fall bzw. eigene Projektkopie)     |
-| **Stoff**         | ProjectLibre, Messerli BauAD                             |
+| **Vorgabe**    | **Beschreibung**                                     |
+| :------------- | :--------------------------------------------------- |
+| **Zeitpunkt**  | empfohlen nach Tag 7, alternativ nach Tag 8          |
+| **Sozialform** | Einzelarbeit (eigener Fall bzw. eigene Projektkopie) |
+| **Stoff**      | ProjectLibre, Messerli BauAD                         |
 
 **Auftrag:**
 

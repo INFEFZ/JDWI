@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Kursstart – Digitale Werkzeuge](#1-kursstart--digitale-werkzeuge)
   - [1.1. Lernziele](#11-lernziele)

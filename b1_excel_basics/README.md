@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Excel Grundlagen – Rechnen mit Zeit und Geld](#1-excel-grundlagen--rechnen-mit-zeit-und-geld)
   - [1.1. Lernziele](#11-lernziele)

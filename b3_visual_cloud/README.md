@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Visualisierung, Forms und Cloud](#1-visualisierung-forms-und-cloud)
   - [1.1. Lernziele](#11-lernziele)
@@ -30,13 +30,13 @@ Nach diesem Kapitel können Sie:
 
 **Projekt:** Küchenrenovation
 
-| **Phase** | **Inhalt** |
-| --------- | ---------- |
-| Einstieg | Welche Information braucht welche Darstellung? |
+| **Phase**     | **Inhalt**                                                                                  |
+| ------------- | ------------------------------------------------------------------------------------------- |
+| Einstieg      | Welche Information braucht welche Darstellung?                                              |
 | Demonstration | Säulen-, Kreis- und Zeitdiagramm; Microsoft Forms; Freigabe und Versionen in OneDrive/Teams |
-| Übung | Kostenverteilung visualisieren und Wunschformular für die Bauherrschaft erstellen |
-| Projektarbeit | Datei im Team teilen und Rückmeldungen einarbeiten |
-| Sicherung | Freigaberechte und Datenschutz prüfen |
+| Übung         | Kostenverteilung visualisieren und Wunschformular für die Bauherrschaft erstellen           |
+| Projektarbeit | Datei im Team teilen und Rückmeldungen einarbeiten                                          |
+| Sicherung     | Freigaberechte und Datenschutz prüfen                                                       |
 
 ---
 

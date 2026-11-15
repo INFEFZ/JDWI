@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 # S2 Einführung in PowerPoint
 
@@ -19,21 +19,21 @@ Nach dieser Einheit können Sie:
 
 ## Video-Tutorials
 
-| **Video** | **Inhalt** |
-| --------- | ---------- |
-| _Link folgt_ | _tbd_ |
+| **Video**    | **Inhalt** |
+| ------------ | ---------- |
+| _Link folgt_ | _tbd_      |
 
 ---
 
 ## Auftrag und Abgabe
 
-| **Vorgabe**         | **Beschreibung** |
-| :------------------ | :--------------- |
-| **Sozialform**      | Einzelarbeit     |
-| **Zeitbedarf**      | ca. 3–4 h        |
-| **Abgabe**          | Kurzpräsentation mit Titel, Übersicht, Diagramm oder Bild und Schlussfolie |
-| **Abgabeort**       | Teams Aufgaben   |
-| **Kontrolle im Kurs** | Tag 4: Kurzpräsentation. Tag 7: Projektübersicht und Kompetenzcheck. |
+| **Vorgabe**           | **Beschreibung**                                                           |
+| :-------------------- | :------------------------------------------------------------------------- |
+| **Sozialform**        | Einzelarbeit                                                               |
+| **Zeitbedarf**        | ca. 3–4 h                                                                  |
+| **Abgabe**            | Kurzpräsentation mit Titel, Übersicht, Diagramm oder Bild und Schlussfolie |
+| **Abgabeort**         | Teams Aufgaben                                                             |
+| **Kontrolle im Kurs** | Tag 4: Kurzpräsentation. Tag 7: Projektübersicht und Kompetenzcheck.       |
 
 Thema: Verwenden Sie Inhalte aus Ihren bisherigen Kursprojekten (Reise, Küchenrenovation).
 

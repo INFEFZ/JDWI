@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Programme verbinden](#1-programme-verbinden)
   - [1.1. Lernziele](#11-lernziele)
@@ -29,13 +29,13 @@ Nach diesem Kapitel können Sie:
 
 **Projekt:** Terrassensanierung
 
-| **Phase** | **Inhalt** |
-| --------- | ---------- |
-| Einstieg | Welche Datei liefert welche Information? |
+| **Phase**     | **Inhalt**                                                           |
+| ------------- | -------------------------------------------------------------------- |
+| Einstieg      | Welche Datei liefert welche Information?                             |
 | Demonstration | Diagramm, Terminplan und Vergleich in Word und PowerPoint übernehmen |
-| Übung | Dokumentation mit Quellen und Projektübersicht erstellen |
-| Projektarbeit | Gemeinsames Projektpaket vervollständigen |
-| Sicherung | Vollständigkeit, Dateinamen und Versionen prüfen |
+| Übung         | Dokumentation mit Quellen und Projektübersicht erstellen             |
+| Projektarbeit | Gemeinsames Projektpaket vervollständigen                            |
+| Sicherung     | Vollständigkeit, Dateinamen und Versionen prüfen                     |
 
 ---
 

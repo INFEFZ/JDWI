@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Excel Kalkulation – Küchenrenovation](#1-excel-kalkulation--küchenrenovation)
   - [1.1. Lernziele](#11-lernziele)
@@ -30,13 +30,13 @@ Nach diesem Kapitel können Sie:
 
 **Projekt:** Küchenrenovation
 
-| **Phase** | **Inhalt** |
-| --------- | ---------- |
-| Einstieg | Rückblick Tag 1 (Transferauftrag), von der Reiseplanung zur Baukalkulation wechseln |
-| Demonstration | Menge × Einheitspreis, Lohnkosten, MWST und Reserve |
-| Übung | Positionen für Küche, Elektro, Sanitär und Montage erfassen |
-| Projektarbeit | Grobbudget mit Annahmen und offenen Positionen erstellen |
-| Sicherung | Summen und Formeln gegenseitig prüfen |
+| **Phase**     | **Inhalt**                                                                          |
+| ------------- | ----------------------------------------------------------------------------------- |
+| Einstieg      | Rückblick Tag 1 (Transferauftrag), von der Reiseplanung zur Baukalkulation wechseln |
+| Demonstration | Menge × Einheitspreis, Lohnkosten, MWST und Reserve                                 |
+| Übung         | Positionen für Küche, Elektro, Sanitär und Montage erfassen                         |
+| Projektarbeit | Grobbudget mit Annahmen und offenen Positionen erstellen                            |
+| Sicherung     | Summen und Formeln gegenseitig prüfen                                               |
 
 ---
 

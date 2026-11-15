@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 # S1 Word – Dokumentationen erstellen
 
@@ -20,21 +20,21 @@ Nach dieser Einheit können Sie:
 
 ## Video-Tutorials
 
-| **Video** | **Inhalt** |
-| --------- | ---------- |
-| _Link folgt_ | _tbd_ |
+| **Video**    | **Inhalt** |
+| ------------ | ---------- |
+| _Link folgt_ | _tbd_      |
 
 ---
 
 ## Auftrag und Abgabe
 
-| **Vorgabe**         | **Beschreibung** |
-| :------------------ | :--------------- |
-| **Sozialform**      | Einzelarbeit     |
-| **Zeitbedarf**      | ca. 3–4 h        |
-| **Abgabe**          | Kurzdokumentation mit Deckblatt, Überschriften, Tabelle, Bild, Quelle und Seitenzahl |
-| **Abgabeort**       | Teams Aufgaben   |
-| **Kontrolle im Kurs** | Tag 4: kurzer Offertenbericht. Tag 7: vollständige Projektdokumentation. |
+| **Vorgabe**           | **Beschreibung**                                                                     |
+| :-------------------- | :----------------------------------------------------------------------------------- |
+| **Sozialform**        | Einzelarbeit                                                                         |
+| **Zeitbedarf**        | ca. 3–4 h                                                                            |
+| **Abgabe**            | Kurzdokumentation mit Deckblatt, Überschriften, Tabelle, Bild, Quelle und Seitenzahl |
+| **Abgabeort**         | Teams Aufgaben                                                                       |
+| **Kontrolle im Kurs** | Tag 4: kurzer Offertenbericht. Tag 7: vollständige Projektdokumentation.             |
 
 Thema: Verwenden Sie Inhalte aus Ihren bisherigen Kursprojekten (Reise, Küchenrenovation).
 

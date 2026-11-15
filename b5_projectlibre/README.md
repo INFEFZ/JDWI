@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Terminplanung mit ProjectLibre](#1-terminplanung-mit-projectlibre)
   - [1.1. Lernziele](#11-lernziele)
@@ -30,13 +30,13 @@ Nach diesem Kapitel können Sie:
 
 **Projekt:** Terrassensanierung
 
-| **Phase** | **Inhalt** |
-| --------- | ---------- |
-| Einstieg | Projektziel, Phasen und Lieferobjekte bestimmen |
+| **Phase**     | **Inhalt**                                                        |
+| ------------- | ----------------------------------------------------------------- |
+| Einstieg      | Projektziel, Phasen und Lieferobjekte bestimmen                   |
 | Demonstration | Projektkalender, Vorgänge, Dauer, Abhängigkeiten und Meilensteine |
-| Übung | Rückbau, Abdichtung, Dämmung, Belag und Abnahme planen |
-| Projektarbeit | Ressourcen und kritische Abhängigkeiten ergänzen |
-| Sicherung | Gantt-Plan kontrollieren und exportieren |
+| Übung         | Rückbau, Abdichtung, Dämmung, Belag und Abnahme planen            |
+| Projektarbeit | Ressourcen und kritische Abhängigkeiten ergänzen                  |
+| Sicherung     | Gantt-Plan kontrollieren und exportieren                          |
 
 ---
 

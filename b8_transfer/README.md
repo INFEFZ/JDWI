@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Reserve und Transfer](#1-reserve-und-transfer)
   - [1.1. Lernziele](#11-lernziele)
@@ -29,13 +29,13 @@ Nach diesem Kapitel können Sie:
 
 **Projekt:** Neuer Kleinfall (Baustelleneinrichtung, Fensterersatz oder kleines Bad)
 
-| **Phase** | **Inhalt** |
-| --------- | ---------- |
-| Einstieg | Lernstand und offene Punkte erfassen (Standortbestimmung von Tag 1 wiederholen) |
-| Vertiefung | Schwierige Funktionen gezielt wiederholen |
-| Transfer | Baustelleneinrichtung, Fensterersatz oder kleines Bad bearbeiten |
-| Coaching | Gruppen erhalten Unterstützung nach Bedarf |
-| Sicherung | Prüfungsbereitschaft und Abgabecheck kontrollieren |
+| **Phase**  | **Inhalt**                                                                      |
+| ---------- | ------------------------------------------------------------------------------- |
+| Einstieg   | Lernstand und offene Punkte erfassen (Standortbestimmung von Tag 1 wiederholen) |
+| Vertiefung | Schwierige Funktionen gezielt wiederholen                                       |
+| Transfer   | Baustelleneinrichtung, Fensterersatz oder kleines Bad bearbeiten                |
+| Coaching   | Gruppen erhalten Unterstützung nach Bedarf                                      |
+| Sicherung  | Prüfungsbereitschaft und Abgabecheck kontrollieren                              |
 
 ---
 

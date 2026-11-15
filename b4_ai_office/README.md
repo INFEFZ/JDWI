@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. KI-Offertenvergleich und Office-Check](#1-ki-offertenvergleich-und-office-check)
   - [1.1. Lernziele](#11-lernziele)
@@ -30,13 +30,13 @@ Nach diesem Kapitel können Sie:
 
 **Projekt:** Küche oder Terrasse
 
-| **Phase** | **Inhalt** |
-| --------- | ---------- |
-| Einstieg | Kurzcheck der Word- und PowerPoint-Aufträge aus dem Selbststudium (S1, S2) |
-| Demonstration | Daten anonymisieren, Prompt strukturieren und Ergebnisse kontrollieren |
-| Übung | Drei Offerten normalisieren und fehlende Leistungen markieren |
+| **Phase**     | **Inhalt**                                                                                    |
+| ------------- | --------------------------------------------------------------------------------------------- |
+| Einstieg      | Kurzcheck der Word- und PowerPoint-Aufträge aus dem Selbststudium (S1, S2)                    |
+| Demonstration | Daten anonymisieren, Prompt strukturieren und Ergebnisse kontrollieren                        |
+| Übung         | Drei Offerten normalisieren und fehlende Leistungen markieren                                 |
 | Projektarbeit | Preisspiegel und Rückfragen erstellen; in Word dokumentieren und in PowerPoint zusammenfassen |
-| Sicherung | KI-Aussagen und Office-Produkte mit den Originalofferten abgleichen |
+| Sicherung     | KI-Aussagen und Office-Produkte mit den Originalofferten abgleichen                           |
 
 ---
 

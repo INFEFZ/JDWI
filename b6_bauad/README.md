@@ -1,6 +1,6 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 - [1. Messerli BauAD – Einstieg](#1-messerli-bauad--einstieg)
   - [1.1. Lernziele](#11-lernziele)
@@ -30,13 +30,13 @@ Nach diesem Kapitel können Sie:
 
 **Projekt:** Wohnungsauffrischung nach Wasserschaden
 
-| **Phase** | **Inhalt** |
-| --------- | ---------- |
-| Einstieg | Unterschied zwischen Projekt, Kostenvoranschlag, LV und Angebot klären |
-| Demonstration | Projektmanager, Projekterfassung, Gliederung und kleines LV |
-| Übung | Eigentexte oder verfügbare Positionen erfassen und Mengen ergänzen |
-| Projektarbeit | Zwei Angebote erfassen bzw. importieren und vergleichen |
-| Sicherung | Angebotsvergleich oder LV als Report ausgeben |
+| **Phase**     | **Inhalt**                                                             |
+| ------------- | ---------------------------------------------------------------------- |
+| Einstieg      | Unterschied zwischen Projekt, Kostenvoranschlag, LV und Angebot klären |
+| Demonstration | Projektmanager, Projekterfassung, Gliederung und kleines LV            |
+| Übung         | Eigentexte oder verfügbare Positionen erfassen und Mengen ergänzen     |
+| Projektarbeit | Zwei Angebote erfassen bzw. importieren und vergleichen                |
+| Sicherung     | Angebotsvergleich oder LV als Report ausgeben                          |
 
 ---
 

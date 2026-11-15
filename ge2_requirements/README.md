@@ -1,20 +1,20 @@
-|                      |                        |                               |
-| -------------------- | ---------------------- | ----------------------------- |
-| **Junior Bauführer** | **Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
+|                      |                               |                               |
+| -------------------- | ----------------------------- | ----------------------------- |
+| **Junior Bauführer** | **JDWI - Digitale Werkzeuge** | ![logo](../x_gitres/logo.png) |
 
 # Voraussetzungen / Werkzeuge
 
-| **Werkzeug**            | **Einsatz im Kurs**                          | **Tag**  | **Bezug**                                                    |
-| ----------------------- | -------------------------------------------- | -------- | ------------------------------------------------------------ |
-| Microsoft Excel (Desktop) | Berechnen, Kalkulieren, Pivot, Diagramme   | 1–4, 7   | Microsoft 365 (Schul- oder Firmenlizenz)                     |
-| Microsoft Teams         | Unterlagen, Aufgaben, Abgaben, Aufzeichnungen | alle     | Microsoft 365                                                |
-| OneDrive / SharePoint   | Ablage, Freigabe, Versionen                  | 3, 7     | Microsoft 365                                                |
-| Microsoft Forms         | Wunschformular für die Bauherrschaft         | 3        | Microsoft 365                                                |
-| Microsoft Word          | Dokumentation (Selbststudium S1)             | 4, 7     | Microsoft 365                                                |
-| Microsoft PowerPoint    | Präsentation (Selbststudium S2)              | 4, 7     | Microsoft 365                                                |
-| KI-Werkzeug             | Offertenvergleich                            | 4, 7     | z. B. Microsoft Copilot (Schulkonto) – _gemäss Schulvorgabe_ |
-| ProjectLibre            | Terminplanung, Gantt                         | 5, 7     | [projectlibre.com](https://www.projectlibre.com) (kostenlos) |
-| Messerli BauAD          | Projekt, LV, Angebotsvergleich               | 6        | _Schullizenz / Zugang gemäss Vorgabe Schule_                 |
+| **Werkzeug**              | **Einsatz im Kurs**                           | **Tag** | **Bezug**                                                    |
+| ------------------------- | --------------------------------------------- | ------- | ------------------------------------------------------------ |
+| Microsoft Excel (Desktop) | Berechnen, Kalkulieren, Pivot, Diagramme      | 1–4, 7  | Microsoft 365 (Schul- oder Firmenlizenz)                     |
+| Microsoft Teams           | Unterlagen, Aufgaben, Abgaben, Aufzeichnungen | alle    | Microsoft 365                                                |
+| OneDrive / SharePoint     | Ablage, Freigabe, Versionen                   | 3, 7    | Microsoft 365                                                |
+| Microsoft Forms           | Wunschformular für die Bauherrschaft          | 3       | Microsoft 365                                                |
+| Microsoft Word            | Dokumentation (Selbststudium S1)              | 4, 7    | Microsoft 365                                                |
+| Microsoft PowerPoint      | Präsentation (Selbststudium S2)               | 4, 7    | Microsoft 365                                                |
+| KI-Werkzeug               | Offertenvergleich                             | 4, 7    | z. B. Microsoft Copilot (Schulkonto) – _gemäss Schulvorgabe_ |
+| ProjectLibre              | Terminplanung, Gantt                          | 5, 7    | [projectlibre.com](https://www.projectlibre.com) (kostenlos) |
+| Messerli BauAD            | Projekt, LV, Angebotsvergleich                | 6       | _Schullizenz / Zugang gemäss Vorgabe Schule_                 |
 
 ---
 
