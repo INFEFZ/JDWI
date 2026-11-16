@@ -201,7 +201,8 @@ Schätzen Sie sich pro Werkzeug auf einer Skala von **1** (noch nie benutzt) bis
 | **Sozialform**      | Einzelarbeit                                     |
 | **Auftrag**         | siehe unten                                      |
 | **Hilfsmittel**     | [Voraussetzungen](../ge2_requirements/README.md) |
-| **Zeitbedarf**      | 5 min                                            |
+|                     | [Video 1](https://youtu.be/ESK_zabXcmQ)          |
+| **Zeitbedarf**      | 10 min                                           |
 | **Lösungselemente** | Übungsdatei in Excel geöffnet                    |
 
 **Aufgabenstellung:**

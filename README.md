@@ -63,6 +63,7 @@
 | **Semester**  | _tbd_                                                    |
 | **Prüfung**   | 1 x Teilprüfung (Gruppe), 1 x Abschlussprüfung (Einzeln) |
 
+- [Curriculum](./ge3_curriculum/Fp_JDWI_Digitale%20Werkzeuge%20Basic%20I_V2.3.pdf)
 - [Grobplanung Modul Digitale Werkzeuge](./ge3_curriculum/01_Grobplanung_Modul_Digitale_Werkzeuge.docx)
 - [Ablaufplanung 8 Abende](./ge3_curriculum/02_Ablaufplanung_8_Abende.docx)
 
@@ -102,8 +103,6 @@
 - Mail: <lukas.mueller@dozent.ipso.ch>
 
 - Kleines Softwarebüro, technische Softwareentwicklung (Fertigungsindustrie, Automation)
-  - Datenbankentwicklung (MS-SQL, Oracle)
-  - Softwareentwicklung (C/C++, C#)
 - Fachdozent bei IPSO (HF u. EFZ), HFU-Uster, Juventus Zürich
 
 ---

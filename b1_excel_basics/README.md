@@ -22,9 +22,9 @@
   - [2.4. Kontrollrechnung von Hand](#24-kontrollrechnung-von-hand)
   - [2.5. Übung A: Reise vollständig berechnen](#25-übung-a-reise-vollständig-berechnen)
   - [2.6. Übung B: Mit Pivot auswerten](#26-übung-b-mit-pivot-auswerten)
-  - [2.7. Transfer: Baustellenfahrten vergleichen](#27-transfer-baustellenfahrten-vergleichen)
-  - [2.8. Vertiefung (optional): Teilstrecken, Pausen, Verpflegung, Unterkunft](#28-vertiefung-optional-teilstrecken-pausen-verpflegung-unterkunft)
-  - [2.9. Fehlerjagd](#29-fehlerjagd)
+  - [2.7. Vertiefung (optional): Teilstrecken, Pausen, Verpflegung, Unterkunft](#27-vertiefung-optional-teilstrecken-pausen-verpflegung-unterkunft)
+  - [2.8. Fehlerjagd](#28-fehlerjagd)
+  - [2.9. Transfer: Baustellenfahrten vergleichen](#29-transfer-baustellenfahrten-vergleichen)
   - [2.10. Selbstcheck und Abgabe](#210-selbstcheck-und-abgabe)
 
 ---
@@ -243,7 +243,6 @@ _Quelle: J. Galek, Digital Fit – Modul Office fortgeschritten_
 
 Unter **Benutzerdefiniert** tragen Sie im Feld **Typ** z. B. `[hh]:mm` ein (im Bild oben `[h]:mm:ss`). Die eckigen Klammern sorgen dafür, dass Stunden über 24 hinaus gezählt werden.
 
-
 | **Inhalt**                | **Format**                  |
 | ------------------------- | --------------------------- |
 | Geldbeträge               | Zahl mit 2 Dezimalstellen   |
@@ -385,7 +384,7 @@ _Quelle: J. Galek, Digital Fit – Modul Office fortgeschritten_
 | **Sozialform**      | Partnerarbeit, danach Plenum                 |
 | **Auftrag**         | siehe unten                                  |
 | **Hilfsmittel**     | keine                                        |
-| **Zeitbedarf**      | 5 min                                        |
+| **Zeitbedarf**      | 15 min                                       |
 | **Lösungselemente** | 3 Beispiele pro Paar am Whiteboard           |
 
 **Aufgabenstellung:**
@@ -396,14 +395,15 @@ Sammeln Sie zu zweit **drei Situationen** aus Ihrem Arbeitsalltag, in denen Zeit
 
 ## 2.2. Geführte Übung 1: Strecken zusammensetzen
 
-| **Vorgabe**         | **Beschreibung**                                           |
-| :------------------ | :--------------------------------------------------------- |
-| **Lernziele**       | Datenreihe, relative Bezüge, Text mit `&` verbinden        |
-| **Sozialform**      | Begleitetes Üben (Dozent zeigt, alle machen mit)           |
-| **Auftrag**         | siehe unten                                                |
-| **Hilfsmittel**     | Übungsdatei 1, Blatt _Reiseplanung Übung_, Kapitel 1.4–1.5 |
-| **Zeitbedarf**      | 15 min                                                     |
-| **Lösungselemente** | Spalten A, C und D vollständig                             |
+| **Vorgabe**         | **Beschreibung**                                                                                                          |
+| :------------------ | :------------------------------------------------------------------------------------------------------------------------ |
+| **Lernziele**       | Datenreihe, relative Bezüge, Text mit `&` verbinden                                                                       |
+| **Sozialform**      | Begleitetes Üben                                                                                                          |
+| **Auftrag**         | siehe unten                                                                                                               |
+| **Hilfsmittel**     | [Übungsdatei – Reise berechnen](./x_gitres/05_Reise_Zeit_Geld_Uebung_1.xlsx), Blatt _Reiseplanung Übung_, Kapitel 1.4–1.5 |
+|                     | [Video 2](https://youtu.be/IfKkWmYRm7E)                                                                                   |
+| **Zeitbedarf**      | 15 min                                                                                                                    |
+| **Lösungselemente** | Spalten A, C und D vollständig                                                                                            |
 
 **Aufgabenstellung:**
 
@@ -423,6 +423,7 @@ Sammeln Sie zu zweit **drei Situationen** aus Ihrem Arbeitsalltag, in denen Zeit
 | **Sozialform**      | Begleitetes Üben                                |
 | **Auftrag**         | siehe unten                                     |
 | **Hilfsmittel**     | Übungsdatei 1, Kapitel 1.6–1.7                  |
+|                     | [Video 2](https://youtu.be/IfKkWmYRm7E)         |
 | **Zeitbedarf**      | 20 min                                          |
 | **Lösungselemente** | Spalten G (Fahrspesen) und K (Lohn) vollständig |
 
@@ -470,6 +471,7 @@ Fahrspesen: ____________________    Lohn: ____________________
 | **Sozialform**      | Einzelarbeit, danach Partnerkontrolle                                   |
 | **Auftrag**         | siehe unten                                                             |
 | **Hilfsmittel**     | Übungsdatei 1, Kapitel 1.8, Wiki, Spick (erst zur Kontrolle)            |
+|                     | [Video 2](https://youtu.be/IfKkWmYRm7E)                                 |
 | **Zeitbedarf**      | 20 min                                                                  |
 | **Lösungselemente** | Blatt _Reiseplanung Übung_ ohne `???`, geprüft durch eine zweite Person |
 
@@ -481,20 +483,21 @@ Fahrspesen: ____________________    Lohn: ____________________
 4. Vergleichen Sie Ihre Ergebnisse mit dem Blatt _Reiseplanung Muster_.
 5. **Partnerkontrolle:** Tauschen Sie den Platz. Erklären Sie sich gegenseitig je **eine Beispielzeile** (Welche Formel? Welcher Bezug ist fixiert? Warum?).
 
-> **Schnell fertig?** Bearbeiten Sie die Vertiefung [2.8](#28-vertiefung-optional-teilstrecken-pausen-verpflegung-unterkunft).
+> **Schnell fertig?** Bearbeiten Sie die Vertiefung [2.7](#27-vertiefung-optional-teilstrecken-pausen-verpflegung-unterkunft).
 
 ---
 
 ## 2.6. Übung B: Mit Pivot auswerten
 
-| **Vorgabe**         | **Beschreibung**                                                   |
-| :------------------ | :----------------------------------------------------------------- |
-| **Lernziele**       | Pivot-Tabelle erstellen, filtern, PivotChart und Detailauszug      |
-| **Sozialform**      | Begleitetes Üben (Schritte 1–3), danach Partnerarbeit              |
-| **Auftrag**         | siehe unten                                                        |
-| **Hilfsmittel**     | Übungsdatei 2, Kapitel 1.11, Video 3                               |
-| **Zeitbedarf**      | 30 min                                                             |
-| **Lösungselemente** | Pivot-Tabelle, PivotChart, notierte Totale, Erklärung Detailauszug |
+| **Vorgabe**         | **Beschreibung**                                                                                  |
+| :------------------ | :------------------------------------------------------------------------------------------------ |
+| **Lernziele**       | Pivot-Tabelle erstellen, filtern, PivotChart und Detailauszug                                     |
+| **Sozialform**      | Begleitetes Üben (Schritte 1–3), danach Partnerarbeit                                             |
+| **Auftrag**         | siehe unten                                                                                       |
+| **Hilfsmittel**     | [Übungsdatei 2 – Pivot](./x_gitres/06_Reise_Zeit_Geld_Uebung_2_Pivot.xlsx), Kapitel 1.11, Video 3 |
+|                     | [Video 3](https://youtu.be/0buhSTusklY)                                                           |
+| **Zeitbedarf**      | 30 min                                                                                            |
+| **Lösungselemente** | Pivot-Tabelle, PivotChart, notierte Totale, Erklärung Detailauszug                                |
 
 **Aufgabenstellung:**
 
@@ -507,37 +510,7 @@ Fahrspesen: ____________________    Lohn: ____________________
 
 ---
 
-## 2.7. Transfer: Baustellenfahrten vergleichen
-
-| **Vorgabe**         | **Beschreibung**                                                 |
-| :------------------ | :--------------------------------------------------------------- |
-| **Lernziele**       | Gelernte Arbeitsschritte auf eine Baustellensituation übertragen |
-| **Sozialform**      | Partnerarbeit (2–3 Personen)                                     |
-| **Auftrag**         | siehe unten                                                      |
-| **Hilfsmittel**     | Eigene Excel-Datei, Kapitel 1.3–1.8                              |
-| **Zeitbedarf**      | 20 min                                                           |
-| **Lösungselemente** | Excel-Auswertung mit Legende, Vergleich, zwei Sätze Begründung   |
-
-**Ausgangslage:**
-
-Sie besuchen zwei Baustellen – ohne Verpflegung und Unterkunft. Ansätze: **CHF 0.72/km** und **CHF 45.35/Stunde**.
-
-| **Besuch**  | **Distanz gesamt** | **Fahrzeit gesamt** |
-| ----------- | ------------------ | ------------------- |
-| Baustelle A | 80 km              | 1:30                |
-| Baustelle B | 120 km             | 2:00                |
-
-**Aufgabenstellung:**
-
-1. Erstellen Sie eine neue Excel-Datei mit einem Blatt **Legende** (beide Ansätze) und einem Blatt **Baustellenfahrten**.
-2. Berechnen Sie pro Besuch Fahrspesen, Lohn und Total – ausschliesslich mit Bezügen auf die Legende.
-3. Vergleichen Sie die beiden Besuche. Ist Baustelle B **nur wegen der Distanz** teurer? Begründen Sie mit Zahlen.
-4. Kennzeichnen Sie alle **Annahmen** (z. B. Fahrzeug, Anzahl Personen, Tarif).
-5. **Erweiterung:** Wie verändert sich das Total, wenn zwei Mitarbeitende mitfahren (Lohn × 2)? Bauen Sie dafür eine Zelle "Anzahl Personen" in die Legende ein.
-
----
-
-## 2.8. Vertiefung (optional): Teilstrecken, Pausen, Verpflegung, Unterkunft
+## 2.7. Vertiefung (optional): Teilstrecken, Pausen, Verpflegung, Unterkunft
 
 | **Vorgabe**         | **Beschreibung**                                                      |
 | :------------------ | :-------------------------------------------------------------------- |
@@ -566,7 +539,7 @@ Formulieren Sie die Formeln zuerst selbst. Kontrollieren Sie erst danach mit dem
 
 ---
 
-## 2.9. Fehlerjagd
+## 2.8. Fehlerjagd
 
 | **Vorgabe**         | **Beschreibung**                                           |
 | :------------------ | :--------------------------------------------------------- |
@@ -584,6 +557,36 @@ In der Übungsdatei haben sich (mindestens) **zwei Fehler** versteckt – einer 
 1. Prüfen Sie die Legende Zeile für Zeile: Passen Wert, Einheit und Bemerkung zusammen?
 2. Vergleichen Sie die Formeln in Zeile 2 des Übungsblatts mit denjenigen im Muster (Formeln anzeigen mit Ctrl+`).
 3. Notieren Sie pro Fehler: Wo? Was ist falsch? Welche Auswirkung hat er? Wie lautet die Korrektur?
+
+---
+
+## 2.9. Transfer: Baustellenfahrten vergleichen
+
+| **Vorgabe**         | **Beschreibung**                                                 |
+| :------------------ | :--------------------------------------------------------------- |
+| **Lernziele**       | Gelernte Arbeitsschritte auf eine Baustellensituation übertragen |
+| **Sozialform**      | Partnerarbeit (2–3 Personen)                                     |
+| **Auftrag**         | siehe unten                                                      |
+| **Hilfsmittel**     | Eigene Excel-Datei, Kapitel 1.3–1.8                              |
+| **Zeitbedarf**      | 40 min                                                           |
+| **Lösungselemente** | Excel-Auswertung mit Legende, Vergleich, zwei Sätze Begründung   |
+
+**Ausgangslage:**
+
+Sie besuchen zwei Baustellen – ohne Verpflegung und Unterkunft. Ansätze: **CHF 0.72/km** und **CHF 45.35/Stunde**.
+
+| **Besuch**  | **Distanz gesamt** | **Fahrzeit gesamt** |
+| ----------- | ------------------ | ------------------- |
+| Baustelle A | 80 km              | 1:30                |
+| Baustelle B | 120 km             | 2:00                |
+
+**Aufgabenstellung:**
+
+1. Erstellen Sie eine neue Excel-Datei mit einem Blatt **Legende** (beide Ansätze) und einem Blatt **Baustellenfahrten**.
+2. Berechnen Sie pro Besuch Fahrspesen, Lohn und Total – ausschliesslich mit Bezügen auf die Legende.
+3. Vergleichen Sie die beiden Besuche. Ist Baustelle B **nur wegen der Distanz** teurer? Begründen Sie mit Zahlen.
+4. Kennzeichnen Sie alle **Annahmen** (z.B. Fahrzeug, Anzahl Personen, Tarif).
+5. **Erweiterung:** Wie verändert sich das Total, wenn zwei Mitarbeitende mitfahren (Lohn × 2)? Bauen Sie dafür eine Zelle "Anzahl Personen" in die Legende ein.
 
 ---
 
