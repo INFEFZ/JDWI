@@ -363,9 +363,9 @@ _Quelle: J. Galek, Digital Fit – Modul Office fortgeschritten_
 | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [Übungsdatei 1 – Reise berechnen](./x_gitres/05_Reise_Zeit_Geld_Uebung_1.xlsx)                      | Übungen 2.2–2.5, 2.8, 2.9                                                           |
 | [Übungsdatei 2 – Pivot](./x_gitres/06_Reise_Zeit_Geld_Uebung_2_Pivot.xlsx)                          | Übung 2.6                                                                           |
-| [Handout](./x_gitres/03_Handout_Reisen_Zeit_Geld.docx)                                              | Begleitheft zu den Videos                                                           |
-| [Wiki – Nachschlagewerk](./x_gitres/02_Wiki_Excel_Reiseplanung_Pivot.docx)                          | Begriffe und Formeln                                                                |
-| [Folien](./x_gitres/04_Folien_Reiseplanung_Pivot.pptx)                                              | Präsentation im Unterricht                                                          |
+| [Handout](./x_gitres/03_Handout_Reisen_Zeit_Geld.pdf)                                               | Begleitheft zu den Videos                                                           |
+| [Wiki – Nachschlagewerk](./x_gitres/02_Wiki_Excel_Reiseplanung_Pivot.pdf)                           | Begriffe und Formeln                                                                |
+| [Folien](./x_gitres/04_Folien_Reiseplanung_Pivot.pdf)                                               | Präsentation im Unterricht                                                          |
 | [Tutorial Office fortgeschritten (J. Galek)](../x_gitres/Tutorial_Office_Fortgeschritten_Galek.pdf) | Nachschlagewerk: Formate S. 9, Daten übernehmen S. 11, Runden S. 22, Pivot S. 34–35 |
 
 ---
