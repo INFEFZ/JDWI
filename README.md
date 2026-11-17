@@ -117,6 +117,8 @@
 - Welche Programme nutzen Sie heute im Betrieb? (Excel, Messerli, MS Project, Teams, …)
 - Erwartungen an den Kurs "Digitale Werkzeuge"
 
+> 📝 Tragen Sie Ihre Antworten in die [Vorlage "Wer sind Sie?"](./b0_intro/x_gitres/Vorstellung_Vorlage.xlsx) ein und geben Sie sie in **Teams → Aufgaben** ab (Dateiname `Nachname_Vorname_Vorstellung.xlsx`).
+
 ---
 
 © 2026 Lukas Müller – Licensed under CC BY-NC-ND 4.0

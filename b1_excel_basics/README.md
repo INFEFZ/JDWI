@@ -63,6 +63,8 @@ Die **Reise** dient in diesem Kapitel als einfaches, überschaubares Beispiel: z
 
 ![Inhalte](./x_gitres/excel-inhalte-uebersicht.png)
 
+_Abbildung 1: Themen- und Formelübersicht aus dem Kursvideo_
+
 Die Übungsdatei besteht aus vier Blättern:
 
 | **Blatt**               | **Zweck**                                                     |
@@ -90,6 +92,8 @@ Die **Legende** enthält folgende Übungswerte (keine verbindlichen Spesen- oder
 ## 1.4. Schritt 2: Daten sauber erfassen
 
 ![Reiseplanung Muster](./x_gitres/excel-reiseplanung-muster.png)
+
+_Abbildung 2: Muster einer Reiseplanung mit Etappen und Kostenarten_
 
 Regeln für eine saubere Tabelle:
 
@@ -183,9 +187,21 @@ Das Dollarzeichen **fixiert** den Bezug. Beim Herunterkopieren wird `E2` zu `E3`
 | `$B2`            | nur Spalte          | wird zu `$B3`                |
 
 - Mit **F4** (auf Laptops oft **Fn+F4**) wechseln Sie zwischen `$B$2` → `B$2` → `$B2` → `B2`.
-- Beim Klick ins Blatt _Legende_ die Formel mit **Enter** abschliessen – **nicht** zurück ins Übungsblatt klicken, sonst wird der Klick Teil der Formel.
+- Beim Klick ins Blatt _Legende_ die Formel mit **Enter** abschliessen oder mit einem **Rechenoperator** (z. B. `*`) fortsetzen – **nicht** vorzeitig zurück ins Übungsblatt klicken, sonst wird der Klick Teil der Formel.
 
 > **Merksatz:** Was sich **pro Zeile ändert**, ist relativ (`E2`). Was für **alle Zeilen gilt**, ist absolut (`$B$2`).
+
+**Die Formeln der Reiseplanung im Überblick (Zeile 2):**
+
+| **Aufgabe**                        | **Formel**            |
+| ---------------------------------- | --------------------- |
+| Ziel aus nächstem Start übernehmen | `=B3` (in C2)         |
+| Strecke zusammensetzen             | `=B2&" - "&C2`        |
+| Fahrspesen berechnen               | `=E2*Legende!$B$2`    |
+| Fahrzeit in Lohn umrechnen         | `=F2*24*Legende!$B$3` |
+| Kosten der Etappe addieren         | `=SUMME(G2;J2:L2)`    |
+
+`E2` und `F2` verändern sich beim Herunterziehen, `Legende!$B$2` und `Legende!$B$3` bleiben unverändert.
 
 **Gut zu wissen – mit mehreren Blättern und Mappen arbeiten:**
 
@@ -275,22 +291,35 @@ _Quelle: J. Galek, Digital Fit – Modul Office fortgeschritten_
 
 > **Wo runden?** Nicht in jeder Zeile, sondern **möglichst spät** – im Endbetrag. Sonst summieren sich die Rundungsdifferenzen. Im Beispiel oben wird erst die Summe in E11 auf 5 Rappen gerundet. Ausnahme: Wenn die Aufgabe ganze Einheiten verlangt (ganze Teilstrecken, ganze Pausen), muss bereits in der Zeile gerundet werden.
 
-> **Vorgehen:** **Erst rechnen, dann runden.** Zuerst die Division eingeben und kontrollieren, danach AUFRUNDEN/ABRUNDEN darum setzen.
+> **Vorgehen:** **Erst rechnen, dann runden.** Zuerst die Division eingeben und kontrollieren, danach AUFRUNDEN/ABRUNDEN darum setzen. Nur die **Anzeige** auf null Dezimalstellen zu stellen genügt **nicht** – der Rechenwert bleibt dann unverändert.
+
+**Teilstrecken und Pausen im Kursmodell**
+
+Pflicht sind in der Reiseplanung **Fahrspesen und Lohn**. Teilstrecken, Pausen, Verpflegung und Unterkunft sind eine **optionale** Erweiterung (Übung [2.7](#27-vertiefung-optional-teilstrecken-pausen-verpflegung-unterkunft)). Dafür gelten im Kurs folgende Regeln:
+
+| **Grösse**              | **Regel im Kursmodell**                                                                                                                                                                   |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Teilstrecken            | Fahrzeit ÷ maximale Fahrzeit pro Tag, **aufgerundet** – ein angefangener Reisetag zählt als ganzer Tag                                                                                    |
+| Pausen                  | Fahrzeit ÷ Fahrzeit bis zur Pause, **abgerundet** – nur volle 2-Stunden-Blöcke zählen. Pro Tageswechsel ersetzt eine Übernachtung eine Pause, deshalb wird `(Teilstrecken − 1)` abgezogen |
+| Verpflegung, Unterkunft | Anzahl Teilstrecken × Anzahl Personen × Ansatz aus der Legende                                                                                                                            |
+
+Die Unterkunft hängt von den Teilstrecken ab – deshalb immer **zuerst die Teilstrecken** berechnen. Die Regeln sind Übungsannahmen: Die konkrete Regel muss zur Aufgabe passen, und die Unterkunft pro Teilstrecke entspricht nicht automatisch der tatsächlichen Zahl der Übernachtungen einer realen Reise.
 
 ---
 
 ## 1.10. Schritt 8: Fehler erkennen
 
-| **Meldung / Symptom**    | **Mögliche Ursache**                                   | **Abhilfe**                        |
-| ------------------------ | ------------------------------------------------------ | ---------------------------------- |
-| `#WERT!`                 | Eine Zelle enthält Text (z. B. `???`) statt einer Zahl | Platzhalter ersetzen               |
-| `#DIV/0!`                | Nenner ist leer oder null                              | Bezug auf den Nenner prüfen        |
-| `#####`                  | Spalte zu schmal                                       | Spaltenbreite anpassen             |
-| Kosten viel zu hoch/tief | Falscher oder nicht fixierter Bezug auf die Legende    | `$` prüfen, Formel mit F2 anzeigen |
-| Lohn viel zu klein       | Faktor 24 vergessen                                    | `*24` ergänzen                     |
-| Summe Fahrzeit falsch    | Format `hh:mm` statt `[hh]:mm`                         | Format anpassen                    |
+| **Meldung / Symptom**                  | **Mögliche Ursache**                                   | **Abhilfe**                                              |
+| -------------------------------------- | ------------------------------------------------------ | -------------------------------------------------------- |
+| `#WERT!`                               | Eine Zelle enthält Text (z. B. `???`) statt einer Zahl | Platzhalter ersetzen                                     |
+| `#DIV/0!`                              | Nenner ist null – eine **leere** Zelle wirkt wie null  | Bezug auf den Nenner prüfen                              |
+| `#####`                                | Spalte zu schmal                                       | Spaltenbreite anpassen                                   |
+| Kosten viel zu hoch/tief               | Falscher oder nicht fixierter Bezug auf die Legende    | `$` prüfen, Formel mit F2 anzeigen                       |
+| Lohn viel zu klein                     | Faktor 24 vergessen                                    | `*24` ergänzen                                           |
+| Summe Fahrzeit falsch                  | Format `hh:mm` statt `[hh]:mm`                         | Format anpassen                                          |
+| Pausen mit Kommastellen (z. B. `1.79`) | Nicht gerundet bzw. falsches Format                    | ABRUNDEN verwenden, Zahl ohne Dezimalstellen formatieren |
 
-> **Vorgehen:** Erste Formel prüfen, **erst danach** nach unten kopieren. Mit **Formeln → Formeln anzeigen** (Ctrl+`) sehen Sie alle Formeln auf einen Blick.
+> **Vorgehen:** Erste Formel prüfen, **erst danach** nach unten kopieren. Mit **Formeln → Formeln anzeigen** sehen Sie alle Formeln auf einen Blick (Tastenkürzel siehe [Shortcuts](./shortcuts.md)).
 
 **Werkzeuge zur Fehlersuche:**
 
@@ -332,11 +361,20 @@ Eine **Pivot-Tabelle** fasst eine Datenliste per Mausklick zusammen – ohne ein
    | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
    _Quelle: J. Galek, Digital Fit – Modul Office fortgeschritten_
-4. Feld _Bezeichnung der Strecke_ in **Zeilen**, Kostenfelder in **Werte** ziehen. Aggregation prüfen: **Summe**.
-5. Über den Filter einzelne Strecken auswählen.
-6. Mit **F11** ein PivotChart erstellen und verständlich beschriften (Titel mit CHF).
+
+4. Die Kostenfelder **Total, Unterkunft, Lohn und Verpflegung** in **Werte** ziehen. Sie erscheinen zuerst als Summen über alle Etappen. Aggregation prüfen: **Summe** statt Anzahl.
+5. Das Feld _Bezeichnung der Strecke_ in **Zeilen** ziehen – damit werden die Werte je Etappe aufgeteilt.
+6. Über den Pfeil bei **Zeilenbeschriftungen** einzelne Strecken auswählen und die Auswahl danach kontrollieren.
+7. Das neue Blatt sinnvoll benennen, z. B. `PivotTabelle`.
+8. Mit **F11** (Fn+F11) ein PivotChart erstellen und verständlich beschriften: Titel, Währung (CHF) und Legende.
+
+> **Feldliste verschwunden?** Feldliste und die Register _PivotTable-Analyse_ und _Entwurf_ erscheinen nur, wenn eine Zelle **in** der Pivot-Tabelle aktiv ist.
 
 ![PivotChart](./x_gitres/pivotchart.png)
+
+_Abbildung 3: F11 erstellt aus der aktiven Pivot-Tabelle ein Diagramm auf einem eigenen Diagrammblatt_
+
+> **Achtung beim Lesen:** **Total** ist bereits die Summe der Kostenarten. Total und Teilkosten (Unterkunft, Lohn, Verpflegung) also nicht nochmals zusammenzählen.
 
 **Ein weiteres Beispiel:** Eine Bilanz in CHF, ausgewertet nach Betrieb und Jahr. Mehrere Felder im Bereich _Zeilen_ ergeben eine Gliederung mit Zwischenergebnissen. Das PivotChart übernimmt automatisch die gleichen Einstellungen (Felder und Filter) wie die Pivot-Tabelle.
 
@@ -346,7 +384,9 @@ Eine **Pivot-Tabelle** fasst eine Datenliste per Mausklick zusammen – ohne ein
 
 _Quelle: J. Galek, Digital Fit – Modul Office fortgeschritten_
 
-> **Wichtig:** Ändern sich die Quelldaten, muss die Pivot-Tabelle **aktualisiert** werden (Rechtsklick → Aktualisieren). Ein Detailauszug ist eine **Momentaufnahme** ohne Verbindung zur Quelle.
+> **Wichtig:** Ändern sich die Quelldaten, muss die Pivot-Tabelle **aktualisiert** werden (Rechtsklick → Aktualisieren). Kommen **neue Zeilen** dazu, zusätzlich den **Quellbereich** prüfen (PivotTable-Analyse → Datenquelle ändern). Ein Detailauszug ist eine **Momentaufnahme** ohne Verbindung zur Quelle.
+
+> **Datenschutz beim Weitergeben:** Eine Arbeitsmappe mit Pivot-Tabelle enthält immer **alle Quelldaten** – auch wenn nur ein Ausschnitt sichtbar ist. Soll nur ein Ausschnitt weitergegeben werden (z. B. ein Detailauszug), diesen in eine **separate Datei** kopieren und auf vertrauliche Daten (Löhne, Namen, Kundendaten) prüfen.
 
 ---
 
@@ -359,14 +399,29 @@ _Quelle: J. Galek, Digital Fit – Modul Office fortgeschritten_
 | [Video 3](https://youtu.be/0buhSTusklY)                                                                  | Pivot-Tabelle, PivotChart, Detailauszug           |
 | [Playlist Excel (Digital Fit)](https://www.youtube.com/playlist?list=PLxSH6SY3ZgVTwQ7uTrOFhY0Yq4qE_RxA_) | Vertiefung: Formate, Daten übernehmen, Funktionen |
 
+> **Hinweis zu den Videos:** Die Aufnahmen sind Live-Erklärungen mit einzelnen Versprechern. Zum Bearbeiten einer Zelle gilt **F2** oder Doppelklick (die in Video 1 genannte Taste F12 ist hier nicht gemeint – F12 bedeutet _Speichern unter_). Die Pivot-Auswertung wird in Video 1 angekündigt, aber erst in **Video 3** gezeigt.
+
+**Tipps aus den Videos – kurz zusammengefasst**
+
+| **Tipp**                                                                                                                                                                                             | **Details**                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Datenreihe:** `1` eingeben, am Ausfüllkästchen doppelklicken, in den Optionen _Datenreihe ausfüllen_ wählen. Ohne benachbarte Daten: **Start → Ausfüllen → Reihe**, Spalten und Endwert festlegen. | [Schritt 2](#14-schritt-2-daten-sauber-erfassen)                      |
+| **Ziel übernehmen:** Das Ziel einer Etappe ist der Start der nächsten Zeile – in C2 `=B3`. In der letzten Etappe das Ziel `Aarau` gezielt setzen.                                                    | [Schritt 3](#15-schritt-3-formeln-relative-bezüge-und-text-verbinden) |
+| **Wechsel zur Legende:** Die Formel mit **Enter** oder einem Rechenoperator fortsetzen – nicht vorzeitig zurück ins Übungsblatt klicken.                                                             | [Schritt 4](#16-schritt-4-absolute-bezüge--die-legende-festhalten)    |
+| **Bezug fixieren:** **F4** (auf manchen Laptops **Fn+F4**). Wiederholtes Drücken wechselt zwischen `$B$2`, `B$2`, `$B2` und `B2`.                                                                    | [Schritt 4](#16-schritt-4-absolute-bezüge--die-legende-festhalten)    |
+| **Spaltenbreite:** An der Grenze zwischen zwei Spaltenüberschriften doppelklicken.                                                                                                                   | [Schritt 3](#15-schritt-3-formeln-relative-bezüge-und-text-verbinden) |
+| **Grundfunktionen:** Über das **Σ-Menü** wählen, den vorgeschlagenen Bereich prüfen und nötigenfalls anpassen. Getrennte Bereiche mit gedrückter **Ctrl**-Taste markieren.                           | [Schritt 6](#18-schritt-6-grundfunktionen-und-zahlenformate)          |
+| **Formate:** Geld mit zwei Dezimalstellen, ANZAHL als ganze Zahl. Für aufsummierte Fahrzeiten **Ctrl+1** → benutzerdefiniertes Format `[hh]:mm`.                                                     | [Schritt 6](#18-schritt-6-grundfunktionen-und-zahlenformate)          |
+
 | **Unterlage**                                                                                       | **Verwendung**                                                                      |
 | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Übungsdatei 1 – Reise berechnen](./x_gitres/05_Reise_Zeit_Geld_Uebung_1.xlsx)                      | Übungen 2.2–2.5, 2.8, 2.9                                                           |
+| [Übungsdatei 1 – Reise berechnen](./x_gitres/05_Reise_Zeit_Geld_Uebung_1.xlsx)                      | Übungen 2.2–2.5, 2.7, 2.8                                                           |
 | [Übungsdatei 2 – Pivot](./x_gitres/06_Reise_Zeit_Geld_Uebung_2_Pivot.xlsx)                          | Übung 2.6                                                                           |
 | [Handout](./x_gitres/03_Handout_Reisen_Zeit_Geld.pdf)                                               | Begleitheft zu den Videos                                                           |
 | [Wiki – Nachschlagewerk](./x_gitres/02_Wiki_Excel_Reiseplanung_Pivot.pdf)                           | Begriffe und Formeln                                                                |
 | [Folien](./x_gitres/04_Folien_Reiseplanung_Pivot.pdf)                                               | Präsentation im Unterricht                                                          |
 | [Tutorial Office fortgeschritten (J. Galek)](../x_gitres/Tutorial_Office_Fortgeschritten_Galek.pdf) | Nachschlagewerk: Formate S. 9, Daten übernehmen S. 11, Runden S. 22, Pivot S. 34–35 |
+| [Excel-Tastenkürzel](./shortcuts.md)                                                                | Die wichtigsten Shortcuts                                                           |
 
 ---
 
@@ -505,7 +560,7 @@ Fahrspesen: ____________________    Lohn: ____________________
 2. **Zeilen:** Bezeichnung der Strecke. **Werte:** Summe von Total, Unterkunft, Lohn und Verpflegung.
 3. Filtern Sie auf **Berlin–Kopenhagen** und **Kopenhagen–Vilnius**. Notieren Sie das gefilterte Total: CHF ____________
 4. Erstellen Sie mit **F11** (Fn+F11) ein PivotChart mit einem verständlichen Titel inkl. "CHF".
-5. Fügen Sie **Sankt Petersburg–Kijv** zur Auswahl hinzu. Notieren Sie das neue Total: CHF ____________
+5. Fügen Sie **Sankt Petersburg–Kijv** zur Auswahl hinzu. Notieren Sie das neue Total: CHF ____________ (Achtung: Das ist das Total der **gewählten** Strecken, nicht der ganzen Reise.)
 6. Öffnen Sie per **Doppelklick** die Details zu dieser dritten Strecke. Erklären Sie in einem Satz, weshalb dieser Auszug eine **Momentaufnahme** ist.
 
 ---
@@ -555,7 +610,7 @@ Formulieren Sie die Formeln zuerst selbst. Kontrollieren Sie erst danach mit dem
 In der Übungsdatei haben sich (mindestens) **zwei Fehler** versteckt – einer in der **Legende** und einer in einer **Formel** im Blatt _Reiseplanung Übung_.
 
 1. Prüfen Sie die Legende Zeile für Zeile: Passen Wert, Einheit und Bemerkung zusammen?
-2. Vergleichen Sie die Formeln in Zeile 2 des Übungsblatts mit denjenigen im Muster (Formeln anzeigen mit Ctrl+`).
+2. Vergleichen Sie die Formeln in Zeile 2 des Übungsblatts mit denjenigen im Muster (Formeln → Formeln anzeigen).
 3. Notieren Sie pro Fehler: Wo? Was ist falsch? Welche Auswirkung hat er? Wie lautet die Korrektur?
 
 ---
@@ -608,6 +663,7 @@ Sie besuchen zwei Baustellen – ohne Verpflegung und Unterkunft. Ansätze: **CH
 3. Wie zeigen Sie eine Gesamtfahrzeit von über 24 Stunden an?
 4. Was ist der Unterschied zwischen SUMME und ANZAHL?
 5. Warum dürfen Summenzeilen nicht in der Pivot-Quelle enthalten sein?
+6. Sind alle Platzhalter (`???`) und Fehlermeldungen beseitigt?
 
 **Abgabecheck:**
 
