@@ -64,8 +64,8 @@
 | **Prüfung**   | 1 x Teilprüfung (Gruppe), 1 x Abschlussprüfung (Einzeln) |
 
 - [Curriculum](./ge3_curriculum/Fp_JDWI_Digitale%20Werkzeuge%20Basic%20I_V2.3.pdf)
-- [Grobplanung Modul Digitale Werkzeuge](./ge3_curriculum/01_Grobplanung_Modul_Digitale_Werkzeuge.docx)
-- [Ablaufplanung 8 Abende](./ge3_curriculum/02_Ablaufplanung_8_Abende.docx)
+- [Grobplanung Modul Digitale Werkzeuge](./ge3_curriculum/01_Grobplanung_Modul_Digitale_Werkzeuge.pfd)
+- [Ablaufplanung 8 Abende](./ge3_curriculum/02_Ablaufplanung_8_Abende.pdf)
 
 ---
 

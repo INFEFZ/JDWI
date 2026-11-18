@@ -53,8 +53,8 @@ Beide Prüfungen finden als **Workshop im Selbststudium** statt (ausserhalb der 
 
 | **Prüfung**      | **Gewicht** |
 | ---------------- | ----------- |
-| Teilprüfung      | _tbd_       |
-| Abschlussprüfung | _tbd_       |
+| Teilprüfung      | 50%         |
+| Abschlussprüfung | 50%         |
 
 ---
 
