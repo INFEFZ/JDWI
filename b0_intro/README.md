@@ -12,9 +12,8 @@
   - [1.7. Prüfungen und Noten](#17-prüfungen-und-noten)
   - [1.8. Organisation und Spielregeln](#18-organisation-und-spielregeln)
 - [2. Übungsaufgaben](#2-übungsaufgaben)
-  - [2.1. Begrüssungsrunde: Baustellen-Steckbrief](#21-begrüssungsrunde-baustellen-steckbrief)
-  - [2.2. Standortbestimmung: Wo stehe ich mit den Werkzeugen?](#22-standortbestimmung-wo-stehe-ich-mit-den-werkzeugen)
-  - [2.3. Technik-Check](#23-technik-check)
+  - [2.1. Standortbestimmung: Wo stehe ich mit den Werkzeugen?](#21-standortbestimmung-wo-stehe-ich-mit-den-werkzeugen)
+  - [2.2. Technik-Check](#22-technik-check)
 
 ---
 
@@ -141,30 +140,7 @@ Beide Prüfungen finden im **Selbststudium** statt (ausserhalb der acht Abende).
 
 # 2. Übungsaufgaben
 
-## 2.1. Begrüssungsrunde: Baustellen-Steckbrief
-
-| **Vorgabe**         | **Beschreibung**                                           |
-| :------------------ | :--------------------------------------------------------- |
-| **Lernziele**       | Sich gegenseitig kennenlernen, Erfahrungen sichtbar machen |
-| **Sozialform**      | Partnerinterview, danach Plenum                            |
-| **Auftrag**         | siehe unten                                                |
-| **Hilfsmittel**     | Steckbrief (Papier oder Whiteboard)                        |
-| **Zeitbedarf**      | 20 min (5 min Interview, 15 min Vorstellung)               |
-| **Lösungselemente** | Vorstellung der Partnerin/des Partners in max. 1 Minute    |
-
-**Aufgabenstellung:**
-
-Interviewen Sie Ihre Sitznachbarin oder Ihren Sitznachbarn (je 2–3 Minuten) und stellen Sie die Person danach der Klasse vor:
-
-1. Name, Vorname, Wohnort
-2. Gelernter Beruf und heutiger Arbeitgeber
-3. Auf welcher Baustelle arbeitet sie/er gerade?
-4. Welches digitale Werkzeug nutzt sie/er am häufigsten – und welches nervt am meisten?
-5. Was will sie/er nach diesem Kurs können?
-
----
-
-## 2.2. Standortbestimmung: Wo stehe ich mit den Werkzeugen?
+## 2.1. Standortbestimmung: Wo stehe ich mit den Werkzeugen?
 
 | **Vorgabe**         | **Beschreibung**                                               |
 | :------------------ | :------------------------------------------------------------- |
@@ -189,11 +165,13 @@ Schätzen Sie sich pro Werkzeug auf einer Skala von **1** (noch nie benutzt) bis
 | Messerli BauAD                        |     |     |     |     |     |
 | KI-Werkzeuge (z. B. Copilot, ChatGPT) |     |     |     |     |     |
 
+[Excel Standortbestimmung](./x_gitres/Standortbestimmung_Werkzeuge.xlsx)
+
 > Die Einschätzung wird an Tag 8 wiederholt – so sehen Sie Ihren eigenen Lernfortschritt.
 
 ---
 
-## 2.3. Technik-Check
+## 2.2. Technik-Check
 
 | **Vorgabe**         | **Beschreibung**                                 |
 | :------------------ | :----------------------------------------------- |
@@ -208,7 +186,7 @@ Schätzen Sie sich pro Werkzeug auf einer Skala von **1** (noch nie benutzt) bis
 **Aufgabenstellung:**
 
 1. Melden Sie sich in **Teams** an und öffnen Sie das Kurs-Team.
-2. Laden Sie die Datei `05_Reise_Zeit_Geld_Uebung_1.xlsx` herunter und speichern Sie eine eigene Kopie.
+2. Laden Sie die Datei [`05_Reise_Zeit_Geld_Uebung_1.xlsx`](../b1_excel_basics/x_gitres/05_Reise_Zeit_Geld_Uebung_1.xlsx) herunter und speichern Sie eine eigene Kopie.
 3. Öffnen Sie die Kopie in der **Desktop-Version** von Excel (nicht im Browser).
 4. Prüfen Sie: Sehen Sie die vier Blätter _Legende_, _Reiseplanung Muster_, _Reiseplanung Spick_ und _Reiseplanung Übung_?
 
